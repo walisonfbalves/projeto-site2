@@ -1,0 +1,31 @@
+* {
+    text-decoration: none;
+}
+
+
+.cabecario {
+    display:flex;
+    flex-direction: row;
+    max-width: 1024px;
+    justify-content: space-around;
+    margin: 0 auto;  
+}
+
+.cabecario .item1 a {
+    color:black;
+}
+
+
+.cabecario .item1 span {
+    color:rgba(0, 60, 255, 0.603);
+}
+
+.cabecario .item2 a{
+    color:black;
+    text-transform: uppercase;
+}
+
+.cabecario .item2 a + a{
+    margin-left: 15px;
+}
+
