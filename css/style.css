@@ -1,5 +1,9 @@
 * {
     text-decoration: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 
@@ -8,7 +12,8 @@
     flex-direction: row;
     max-width: 1024px;
     justify-content: space-around;
-    margin: 0 auto;  
+    margin: 0 auto;
+    padding: 20px 0px; 
 }
 
 .cabecario .item1 a {
@@ -28,4 +33,35 @@
 .cabecario .item2 a + a{
     margin-left: 15px;
 }
+
+.titulo-img {
+    background-image: url("../img/img-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.titulo-img .titulo-descricao {
+    color: #fff;
+    font-size: 28px;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-align: center;
+    height: 150px;
+
+}
+
+.titulo-img .titulo-descricao p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.conteiner
+
 
