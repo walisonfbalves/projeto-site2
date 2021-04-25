@@ -48,7 +48,7 @@
 .titulo-img .titulo-descricao {
     color: #fff;
     font-size: 28px;
-    background-color: #0a9077b3;
+    background-color: #900a0ab3;
     border: 1px solid;
     padding: 15px 20px;
     border-radius: 4px;
@@ -63,13 +63,26 @@
 }
 
 .conteiner {
-    background-color: blue;
     display:flex;
     flex-direction: column;
     max-width: 1024px;
     margin: 0 auto;
     text-align: center;
-    
+    justify-content: center;    
+    padding: 30px 0px;
 }
+
+.conteiner h2 {
+    font-size: 28px;
+}
+
+.conteiner p {
+    margin: 25px 0px;
+    font-size: 18px;
+}
+
+
+
+
 
 
